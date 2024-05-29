@@ -37,7 +37,6 @@ function AnimeCard({ anime, index }: Prop) {
       }}
       viewport={{ amount: 0 }}
     >
-      //{" "}
       <div>
         <div className="relative w-full h-[37vh]">
           <Image
@@ -85,7 +84,6 @@ function AnimeCard({ anime, index }: Prop) {
             </div>
           </div>
         </div>
-        //{" "}
       </div>
     </MotionDiv>
   );
